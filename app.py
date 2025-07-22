@@ -10,7 +10,7 @@ def main():
     if choice == 'Home':
         st.subheader('Welcome to The Outliers Project!')
     elif choice == 'Uber Taxi Fare Prediction':
-        st.subheader('Lets Predict the Uber Taxi Fare Prediction')
+        #st.subheader('Lets Predict the Uber Taxi Fare Prediction')
         run_ml_app()
 
 if __name__ == '__main__':
