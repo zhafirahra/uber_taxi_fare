@@ -62,15 +62,14 @@ ohe_feature_names = ohe_best.get_feature_names_out(nominal_features_best)
 expected_columns = numeric_features_best + ordinal_features_best + list(ohe_feature_names)
 
 
-def run_ml_app():
+def main():
     # Jika Anda punya struktur menu, letakkan kode di bawah ini di dalam branch menu yang sesuai
     # Contoh:
     # menu = ['Home', 'Machine Learning']
     # choice = st.sidebar.selectbox('Menu', menu)
     # if choice == 'Machine Learning':
-    
-    st.subheader("Prediksi Tarif Taksi Uber")
-    #st.title("Prediksi Tarif Taksi Uber")
+
+    st.title("Prediksi Tarif Taksi Uber")
     st.write("Masukkan detail perjalanan untuk memprediksi tarif.")
 
     # Input dari pengguna
@@ -153,3 +152,7 @@ def run_ml_app():
 
         except Exception as e:
             st.error(f"Terjadi kesalahan saat memproses input atau melakukan prediksi: {e}")
+
+
+if __name__ == '__main__':
+    main()
