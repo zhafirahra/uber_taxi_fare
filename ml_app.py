@@ -153,7 +153,3 @@ def run_ml_app():
 
         except Exception as e:
             st.error(f"Terjadi kesalahan saat memproses input atau melakukan prediksi: {e}")
-
-
-if __name__ == '__main__':
-    main()
