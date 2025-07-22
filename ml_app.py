@@ -69,8 +69,8 @@ def run_ml_app():
     # choice = st.sidebar.selectbox('Menu', menu)
     # if choice == 'Machine Learning':
     
-    st.title("Prediksi Tarif Taksi Uber")
-    st.title("Prediksi Tarif Taksi Uber")
+    st.subheader("Prediksi Tarif Taksi Uber")
+    #st.title("Prediksi Tarif Taksi Uber")
     st.write("Masukkan detail perjalanan untuk memprediksi tarif.")
 
     # Input dari pengguna
